@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infralog Transport - Solución de Última Milla para eCommerce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-color: #1a1a2e;
+        }
+        .brand-text {
+            color: #00a9e0;
+        }
+        .section-bg {
+            background-color: #f0f2f5;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">
+                infra<span class="brand-text">.</span>log
+            </div>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#solucion" class="text-gray-600 hover:text-gray-900">Nuestra Solución</a>
+                <a href="#beneficios" class="text-gray-600 hover:text-gray-900">Beneficios</a>
+                <a href="#servicios" class="text-gray-600 hover:text-gray-900">Servicios</a>
+                <a href="#planes" class="text-gray-600 hover:text-gray-900">Planes</a>
+                <a href="#contacto" class="bg-[#00a9e0] text-white py-2 px-4 rounded-lg hover:bg-[#0087b3]">Contacto</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-800 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden px-6 pb-4 space-y-2">
+            <a href="#solucion" class="block text-gray-600 hover:text-gray-900">Nuestra Solución</a>
+            <a href="#beneficios" class="block text-gray-600 hover:text-gray-900">Beneficios</a>
+            <a href="#servicios" class="block text-gray-600 hover:text-gray-900">Servicios</a>
+            <a href="#planes" class="block text-gray-600 hover:text-gray-900">Planes</a>
+            <a href="#contacto" class="block bg-[#00a9e0] text-white text-center py-2 px-4 rounded-lg hover:bg-[#0087b3]">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero-bg text-white">
+            <div class="container mx-auto px-6 py-20 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">La solución integral para tu logística de última milla en LATAM</h1>
+                <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">Conecta, a través de una única integración, múltiples transportistas y servicios en toda la región. Simplificamos tu operación para que te enfoques en crecer.</p>
+                <a href="#planes" class="bg-[#00a9e0] text-white py-3 px-8 rounded-lg text-lg font-semibold hover:bg-[#0087b3] transition duration-300">Conoce Nuestros Planes</a>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section class="py-12 bg-white">
+            <div class="container mx-auto px-6">
+                <h3 class="text-center text-2xl font-semibold text-gray-600 mb-8">Trabajamos con más de 30 partners en toda la región</h3>
+                <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-8 items-center">
+                    <!-- Logos de ejemplo. En un proyecto real, se usarían los logos correctos -->
+                    <img src="https://placehold.co/120x60/f0f2f5/333?text=Andreani" alt="Logo de Andreani" class="mx-auto grayscale hover:grayscale-0 transition duration-300">
+                    <img src="https://placehold.co/120x60/f0f2f5/333?text=FedEx" alt="Logo de FedEx" class="mx-auto grayscale hover:grayscale-0 transition duration-300">
+                    <img src="https://placehold.co/120x60/f0f2f5/333?text=DHL" alt="Logo de DHL" class="mx-auto grayscale hover:grayscale-0 transition duration-300">
+                    <img src="https://placehold.co/120x60/f0f2f5/333?text=Estafeta" alt="Logo de Estafeta" class="mx-auto grayscale hover:grayscale-0 transition duration-300">
+                    <img src="https://placehold.co/120x60/f0f2f5/333?text=99minutos" alt="Logo de 99minutos" class="mx-auto grayscale hover:grayscale-0 transition duration-300">
+                    <img src="https://placehold.co/120x60/f0f2f5/333?text=Starken" alt="Logo de Starken" class="mx-auto grayscale hover:grayscale-0 transition duration-300">
+                    <img src="https://placehold.co/120x60/f0f2f5/333?text=Servientrega" alt="Logo de Servientrega" class="mx-auto grayscale hover:grayscale-0 transition duration-300">
+                    <img src="https://placehold.co/120x60/f0f2f5/333?text=Moova" alt="Logo de Moova" class="mx-auto grayscale hover:grayscale-0 transition duration-300">
+                </div>
+            </div>
+        </section>
+
+        <!-- Solución Section -->
+        <section id="solucion" class="section-bg py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-3">Nuestra Solución: De la recepción al seguimiento</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Unificamos todo el proceso logístico en una sola plataforma robusta y fácil de usar.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Feature Card -->
+                    <div class="bg-white p-6 rounded-lg shadow-md transition duration-300 card-hover">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-[#e0f7ff] p-3 rounded-full mr-4"><svg class="w-6 h-6 text-[#00a9e0]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></div>
+                            <h3 class="text-xl font-semibold">Integración Única</h3>
+                        </div>
+                        <p class="text-gray-600">Conéctate una sola vez a nuestro Delivery Hub y accede a toda nuestra red de transportistas, respetando los más altos estándares de seguridad y simplicidad técnica.</p>
+                    </div>
+                     <!-- Feature Card -->
+                    <div class="bg-white p-6 rounded-lg shadow-md transition duration-300 card-hover">
+                        <div class="flex items-center mb-4">
+                             <div class="bg-[#e0f7ff] p-3 rounded-full mr-4"><svg class="w-6 h-6 text-[#00a9e0]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg></div>
+                            <h3 class="text-xl font-semibold">Gestión de Pedidos</h3>
+                        </div>
+                        <p class="text-gray-600">Recibimos los datos de tus pedidos desde cualquier canal de venta (eCommerce, Marketplace, Tienda Física) y realizamos la imposición automática al carrier ideal.</p>
+                    </div>
+                     <!-- Feature Card -->
+                    <div class="bg-white p-6 rounded-lg shadow-md transition duration-300 card-hover">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-[#e0f7ff] p-3 rounded-full mr-4"><svg class="w-6 h-6 text-[#00a9e0]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg></div>
+                            <h3 class="text-xl font-semibold">Etiquetas y Despacho</h3>
+                        </div>
+                        <p class="text-gray-600">Obtenemos y centralizamos las etiquetas de todos los carriers para que puedas imprimir y despachar tus paquetes sin fricciones y con total agilidad.</p>
+                    </div>
+                     <!-- Feature Card -->
+                    <div class="bg-white p-6 rounded-lg shadow-md transition duration-300 card-hover">
+                        <div class="flex items-center mb-4">
+                             <div class="bg-[#e0f7ff] p-3 rounded-full mr-4"><svg class="w-6 h-6 text-[#00a9e0]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10l2-2h8a1 1 0 001-1z"></path></svg></div>
+                            <h3 class="text-xl font-semibold">Tracking y Estados</h3>
+                        </div>
+                        <p class="text-gray-600">Recibimos el tracking number y todas las actualizaciones de estado, permitiendo un seguimiento preciso del envío tanto para tu equipo como para el cliente final.</p>
+                    </div>
+                     <!-- Feature Card -->
+                    <div class="bg-white p-6 rounded-lg shadow-md transition duration-300 card-hover">
+                        <div class="flex items-center mb-4">
+                             <div class="bg-[#e0f7ff] p-3 rounded-full mr-4"><svg class="w-6 h-6 text-[#00a9e0]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg></div>
+                            <h3 class="text-xl font-semibold">WebApp de Gestión</h3>
+                        </div>
+                        <p class="text-gray-600">Nuestra WebApp te da una visión 360° para el seguimiento de envíos y la gestión centralizada de etiquetas, todo en un solo lugar.</p>
+                    </div>
+                     <!-- Feature Card -->
+                    <div class="bg-white p-6 rounded-lg shadow-md transition duration-300 card-hover">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-[#e0f7ff] p-3 rounded-full mr-4"><svg class="w-6 h-6 text-[#00a9e0]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg></div>
+                            <h3 class="text-xl font-semibold">Comunicación Unificada</h3>
+                        </div>
+                        <p class="text-gray-600">Con nuestro Message Center, estandarizamos y mejoramos la comunicación con el usuario final, manteniendo tu marca en cada punto de contacto.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Beneficios Section -->
+        <section id="beneficios" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-3">Tu socio estratégico en logística</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Más que un proveedor, somos una extensión de tu equipo.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-10">
+                    <div class="text-center">
+                        <div class="flex justify-center items-center mx-auto bg-[#00a9e0] text-white rounded-full h-16 w-16 mb-4">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Gestión Centralizada</h3>
+                        <p class="text-gray-600">Delega la gestión operativa y administrativa. Nos encargamos de la relación con los carriers, reclamos y pérdidas de forma proactiva para que tú no tengas que hacerlo.</p>
+                    </div>
+                    <div class="text-center">
+                         <div class="flex justify-center items-center mx-auto bg-[#00a9e0] text-white rounded-full h-16 w-16 mb-4">
+                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Alto Nivel de Servicio</h3>
+                        <p class="text-gray-600">Cumplimos la promesa de entrega con los mejores niveles de servicio de la industria: más del 97% de cumplimiento en primera visita y más del 99% de pedidos entregados.</p>
+                    </div>
+                    <div class="text-center">
+                         <div class="flex justify-center items-center mx-auto bg-[#00a9e0] text-white rounded-full h-16 w-16 mb-4">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a2 2 0 01-2-2V7a2 2 0 012-2h2m8-4H5a2 2 0 00-2 2v10a2 2 0 002 2h11l4 4V7a2 2 0 00-2-2z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Flexibilidad y Redundancia</h3>
+                        <p class="text-gray-600">Gracias a nuestra multiplicidad de partners, tu operación es más segura ante contingencias y está preparada para responder a picos de demanda como Cyber Monday o Hot Sale.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Stats Section -->
+        <section class="py-20 hero-bg text-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Transport en Números</h2>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div>
+                        <p class="text-4xl lg:text-5xl font-extrabold brand-text">97.2%</p>
+                        <p class="text-lg text-gray-300">Cumplimiento 1ra visita</p>
+                    </div>
+                    <div>
+                        <p class="text-4xl lg:text-5xl font-extrabold brand-text">99.2%</p>
+                        <p class="text-lg text-gray-300">Pedidos entregados</p>
+                    </div>
+                    <div>
+                        <p class="text-4xl lg:text-5xl font-extrabold brand-text">+3M</p>
+                        <p class="text-lg text-gray-300">Paquetes en 2024</p>
+                    </div>
+                     <div>
+                        <p class="text-4xl lg:text-5xl font-extrabold brand-text">96%</p>
+                        <p class="text-lg text-gray-300">Target SLA cumplido</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicios Section -->
+        <section id="servicios" class="section-bg py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-3">Una variedad de servicios para cada necesidad</h2>
+                     <p class="text-lg text-gray-600">Nos adaptamos a las necesidades de tu negocio y de tus clientes.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-3">Logística Directa</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-start"><span class="brand-text mr-2">✔</span> Puerta a Puerta (Same Day, Next Day, Regular)</li>
+                            <li class="flex items-start"><span class="brand-text mr-2">✔</span> Cobertura en todo el país.</li>
+                            <li class="flex items-start"><span class="brand-text mr-2">✔</span> Múltiples visitas al cliente final.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-3">Puntos de Entrega</h3>
+                         <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-start"><span class="brand-text mr-2">✔</span> Drop-off / Pickup Point.</li>
+                            <li class="flex items-start"><span class="brand-text mr-2">✔</span> Mayor flexibilidad y conveniencia para el comprador.</li>
+                            <li class="flex items-start"><span class="brand-text mr-2">✔</span> Amplia red de puntos en toda la región.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-3">Logística Inversa</h3>
+                         <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-start"><span class="brand-text mr-2">✔</span> Devoluciones y cambios puerta a puerta.</li>
+                            <li class="flex items-start"><span class="brand-text mr-2">✔</span> Servicio de cambio mano a mano.</li>
+                            <li class="flex items-start"><span class="brand-text mr-2">✔</span> Mejora la experiencia del cliente y reduce costos.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Planes Section -->
+        <section id="planes" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-3">Planes pensados para tu negocio</h2>
+                     <p class="text-lg text-gray-600 max-w-2xl mx-auto">Elige el plan que mejor se adapte a tu etapa de crecimiento y modelo operativo.</p>
+                </div>
+                <div class="grid lg:grid-cols-2 gap-8 items-start">
+                    <!-- Plan Básico -->
+                    <div class="border-2 border-[#00a9e0] rounded-lg p-8">
+                        <h3 class="text-2xl font-bold text-center mb-2">Plan Básico</h3>
+                        <p class="text-center text-gray-600 mb-6 font-semibold">Tecnología Transport</p>
+                        <p class="text-center text-gray-500 mb-6">Ideal para empresas que ya tienen acuerdos con transportistas y solo necesitan nuestra tecnología para centralizar la operación.</p>
+                        <ul class="space-y-4 text-gray-700 mb-8">
+                            <li class="flex items-center"><span class="text-green-500 mr-3">✓</span>Soporte de integración con hub de carriers</li>
+                            <li class="flex items-center"><span class="text-green-500 mr-3">✓</span>Generación de etiquetas (vía integración o WebApp)</li>
+                            <li class="flex items-center"><span class="text-green-500 mr-3">✓</span>Tracking de paquetes centralizado</li>
+                             <li class="flex items-center"><span class="text-green-500 mr-3">✓</span>WebApp en modo consulta</li>
+                            <li class="flex items-center"><span class="text-green-500 mr-3">✓</span>Soporte tecnológico incluido</li>
+                        </ul>
+                         <p class="text-center text-2xl font-bold mb-4">Fee Inicial + Fee Mensual</p>
+                        <a href="#contacto" class="block w-full text-center bg-gray-200 text-gray-800 py-3 px-6 rounded-lg font-semibold hover:bg-gray-300">Consultar Pricing</a>
+                    </div>
+                    <!-- Plan Full -->
+                     <div class="bg-[#2c2a3b] text-white rounded-lg p-8 shadow-2xl">
+                        <h3 class="text-2xl font-bold text-center mb-2">Plan Full</h3>
+                        <p class="text-center brand-text mb-6 font-semibold">Servicio Transport</p>
+                        <p class="text-center text-gray-300 mb-6">La solución integral. Delegas toda la operación logística en nosotros, aprovechando nuestros contratos, tarifas y equipo de expertos.</p>
+                        <ul class="space-y-4 text-gray-200 mb-8">
+                            <li class="flex items-center"><span class="text-[#00a9e0] mr-3">✓</span><strong>Todo lo del Plan Básico, y además:</strong></li>
+                            <li class="flex items-center"><span class="text-[#00a9e0] mr-3">✓</span>Acceso a nuestros contratos y tarifas con carriers</li>
+                            <li class="flex items-center"><span class="text-[#00a9e0] mr-3">✓</span>Seguro por paquete incluido</li>
+                            <li class="flex items-center"><span class="text-[#00a9e0] mr-3">✓</span>Coordinación de colectas y monitoreo</li>
+                            <li class="flex items-center"><span class="text-[#00a9e0] mr-3">✓</span>Gestión de pérdidas y reclamos</li>
+                            <li class="flex items-center"><span class="text-[#00a9e0] mr-3">✓</span>Conciliación de facturación y soporte operativo</li>
+                            <li class="flex items-center"><span class="text-[#00a9e0] mr-3">✓</span>Inteligencia logística y mejora continua</li>
+                        </ul>
+                         <p class="text-center text-2xl font-bold mb-4">Tarifas por servicio y cobertura</p>
+                        <a href="#contacto" class="block w-full text-center bg-[#00a9e0] text-white py-3 px-6 rounded-lg font-semibold hover:bg-[#0087b3]">Solicitar Cotización</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Footer -->
+    <footer id="contacto" class="hero-bg text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+             <h2 class="text-3xl font-bold mb-4">¿Listo para transformar tu logística?</h2>
+            <p class="text-gray-300 mb-8 max-w-xl mx-auto">Hablemos sobre cómo Infralog Transport puede potenciar tu eCommerce.</p>
+            <a href="mailto:ventas@infracommerce.lat" class="bg-white text-[#1a1a2e] py-3 px-8 rounded-lg text-lg font-semibold hover:bg-gray-200 transition duration-300">Contactar a un especialista</a>
+            <div class="mt-10 border-t border-gray-700 pt-6">
+                <p>&copy; 2025 Infracommerce Latam. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script para el menú móvil
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
